@@ -1,8 +1,190 @@
 body
 {
-	background-color: gray;
-	font-family: Verdana;
-	font-size: 20px;
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url("img/grey_wash_wall.png");
+	font-size: 15px;
+	font-family: 'Lora', serif;
 	color: white;
+}
+
+.form
+{
+	background-color: #4a4a4a;
+	width: 300px;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(0,0,0,1);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(0,0,0,1);
+	box-shadow: 3px 3px 30px 5px rgba(0,0,0,1);
+}
+
+input[type=text],
+input[type=password],
+input[type=email]
+{
+	width: 300px;
+	background-color: white;
+	color: #black;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 15px;
+	font-family: 'Lora', serif;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus
+{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,1);
+	box-shadow: 0px 0px 10px 2px rgba(0,0,0,1);
+	background-color: #F3E2CF;
+}
+
+input[type=submit]
+{
+	width: 300px;
+	background-color: #F3843E;
+	font-size: 15px;
+	font-family: 'Lora', serif;
+	color: white;
+	padding: 15px 10px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+input[type=submit]:hover
+{
+	background-color: #E2732D
+}
+
+input[type=submit]:focus
+{
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,1);
+	box-shadow: 0px 0px 15px 5px rgba(0,0,0,1);
+}
+
+input::-webkit-input-placeholder
+{
+    color: #bbb;
+}
+input:focus::-webkit-input-placeholder
+{
+    color: #bbb;
+}
+/* Firefox < 19 */
+input:-moz-placeholder
+{
+    color: #bbb;
+}
+input:focus:-moz-placeholder
+{
+    color: #bbb;
+}
+/* Firefox > 19 */
+input::-moz-placeholder
+{
+    color: #bbb;
+}
+input:focus::-moz-placeholder
+{
+    color: #bbb;
+}
+/* Internet Explorer 10 */
+input:-ms-input-placeholder
+{
+    color: #bbb;
+}
+input:focus:-ms-input-placeholder
+{
+    color: #bbb;
+}
+
+
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo
+{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	letter-spacing: 3px;
+
+}
+
+#nav
+{
+	float: left;
+	background-color: lightgray;
+	width: 120px;
+	min-height: 620px;
+	padding: 10px;
+	
+}
+
+#content
+{
+	float: left;
+	padding: 20px;
+	width: 680px;
+}
+
+#sidebar
+{
+	float: left;
+	background-color: lightgray;
+	width: 120px;
+	min-height: 620px;
+	padding: 10px;
+}
+
+#footer
+{
+	clear: both;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+.option
+{
+	color: black;
+	font-size: 18px;
+	height: 25px;
+	text-align: center;
+	padding: 10px;
+	border-bottom: 2px dotted #444444;
+	
+}
+
+.option:hover
+{
+	background-color: #f36742;
+	cursor: pointer;
+	color: white;
+}
+
+a.optionlinkhtml5
+{
+	color:  black;
+	text-decoration: none;
 }
 
