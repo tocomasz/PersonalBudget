@@ -17,21 +17,29 @@
 	<div id="container">
 		<div id="menu">
 		
-			<div class="optionClicked">
-				<i class="icon-plus"></i> </br>Dodaj przychód
-			</div>
-			
-			<div class="option">
-				<i class="icon-minus"></i> </br>Dodaj wydatek
-			</div>
-			
-			<div class="option">
-				<i class="icon-money"></i> </br>Przeglądaj bilans
-			</div>
-			
-			<div class="option">
-				<i class="icon-cog"></i> </br>Ustawienia
-			</div>
+			<a href="income.html" class="optionlinkhtml5">
+				<div class="optionClicked">
+					<i class="icon-plus"></i> </br>Dodaj przychód
+				</div>
+			</a>
+				
+			<a href="expense.html" class="optionlinkhtml5">
+				<div class="option">
+					<i class="icon-minus"></i> </br>Dodaj wydatek
+				</div>
+			</a>
+				
+			<a href="balance.html" class="optionlinkhtml5">
+				<div class="option">
+					<i class="icon-money"></i> </br>Przeglądaj bilans
+				</div>
+			</a>
+				
+			<a href="settings.html" class="optionlinkhtml5">
+				<div class="option">
+					<i class="icon-cog"></i> </br>Ustawienia
+				</div>
+			</a>
 			
 			<a href="index.html" class="optionlinkhtml5">
 				<div class="option">
@@ -47,21 +55,26 @@
 			</div>
 			
 			<div id="inside">
+				<p>
 				Podaj kwotę przychodu <input type="number" >
-				</br>
+				</p>
 				
-				Podaj datę <input type="date" value="today">
-				</br>
-				
+				<p>
+				Podaj datę <input type="date" >
+				</p>
+				<p>
 				Wybierz kategorię
-				<select name="categories">
+				<select name="kategoria">
 				  <option value="wynagrodzenie">Wynagrodzenie</option>
 				  <option value="odsetki">Odsetki bankowe</option>
 				  <option value="sprzedaz">Sprzedaż internetowa</option>
 				  <option value="inne">Inne</option>
 				</select>
+				</p>
+				<p>
 				<input type="submit" value="Dodaj">
 				<input type="submit" value="Anuluj">
+				</p>
 			</div>
 		</div>
 		
